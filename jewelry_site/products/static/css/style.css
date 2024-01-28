@@ -1,0 +1,34 @@
+/* products/static/css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffd700;
+}
+/* style.css */
+
+.logo-and-welcome {
+    display: flex;
+    align-items: left;
+    margin-left: 10px;
+}
+
+#site-logo {
+    height: 10px; /* Adjust the size as needed */
+    width: auto;
+    margin-right: 10px; /* Space between logo and welcome message */
+}
+
+.logo-and-welcome h1 {
+    margin: 0; /* Adjust as per your design */
+    font-size: 24px; /* Adjust as per your design */
+}
+
+/* Other styles */
+
+header, footer {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}
+main {
+    padding: 15px;
+}

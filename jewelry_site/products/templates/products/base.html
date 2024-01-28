@@ -1,0 +1,25 @@
+{% extends "base.html" %} 
+{% load static %}
+<!-- products/templates/products/base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jewelry Store</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Jewelry Store</h1>
+    </header>
+    <nav>
+        <!-- Navigation Links -->
+    </nav>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer>
+        <!-- Footer Content -->
+    </footer>
+</body>
+</html>
